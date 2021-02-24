@@ -24,4 +24,3 @@ module.exports = function getSeason(date) {
 
 };
 
-// console.log(getSeason(null));
