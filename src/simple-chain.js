@@ -18,9 +18,7 @@ const chainMaker = {
       throw new Error('Error');
     }
 
-    this.chain.forEach((item, idx) => {
-      if (idx === position) this.chain.splice(position - 1, 1);
-    });
+    this.chain.splice(position - 1, 1)
     return this;
   },
 
